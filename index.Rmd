@@ -30,7 +30,7 @@ knit        : slidify::knit2slides
 
 ## Correspondence Map using R - Eigen values
 
-> 1. Packages - FactoMineR, ca 
+> 1. Packages - FactoMineR
 
 ```{r}
 library(FactoMineR)
@@ -44,8 +44,6 @@ ca2$eig
 
 ## Correspondence Map Coordinates
 
-> 1. Packages - FactoMineR, ca 
-
 ```{r}
 head(ca2$col$coord)
 head(ca2$row$coord)
@@ -56,11 +54,7 @@ head(ca2$row$coord)
 
 ## Correspondence Map Plot
 
-> 1. Packages - FactoMineR, ca 
-
 ```{r}
 plot(ca2)
 
 ```
-
----
