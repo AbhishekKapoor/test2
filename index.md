@@ -92,4 +92,16 @@ head(ca2$row$coord)
 plot(ca2)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
+
+---
+
+## Correspondence Map for end users
+
+> 1. Now here is the link where user can easily upload the data (brand assoication data) and correspondence map will be generated in just fraction of seconds
+> 2. Now user don't have to worry of running R codes, loading data or arranging the data in particular format for SPSS run
+> 3. Here is the link https://kapoorabhishek.shinyapps.io/PerceptualMap/
+
+
+> Happy Plotting
+
