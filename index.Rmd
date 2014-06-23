@@ -1,0 +1,66 @@
+---
+title       : My First Slidify Presentation
+subtitle    : Pitching for my first shiny app
+author      : Abhishek Kapoor
+job         : 1st Deck
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #id 
+
+## Correspondence Map
+
+> 1. Market Researcher have to deal with brand perception data frequently
+> 2. Here consumers has rated different brands against different imagery aspects 
+> 3. One of the way of analysing this data is through correspondence maps
+> 4. Example of correspondence maps -http://kantarmedia-tgiie.com/wp-content/uploads/2012/03/Correspondence-Mapping-ROI.pdf
+
+---
+
+## Correspondence Map using R - Eigen values
+
+> 1. Packages - FactoMineR, ca 
+
+```{r}
+library(FactoMineR)
+author=read.csv("Sample.csv",row.names="X")
+ca2<- CA(author,graph = FALSE)
+ca2$eig
+
+```
+
+---
+
+## Correspondence Map Coordinates
+
+> 1. Packages - FactoMineR, ca 
+
+```{r}
+head(ca2$col$coord)
+head(ca2$row$coord)
+
+```
+
+---
+
+## Correspondence Map Plot
+
+> 1. Packages - FactoMineR, ca 
+
+```{r}
+plot(ca2)
+
+```
+
+---
