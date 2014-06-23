@@ -11,14 +11,6 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
-
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
-
---- .class #id 
-
 ## Correspondence Map
 
 > 1. Market Researcher have to deal with brand perception data frequently
@@ -99,9 +91,7 @@ plot(ca2)
 ## Correspondence Map for end users
 
 > 1. Now here is the link where user can easily upload the data (brand assoication data) and correspondence map will be generated in just fraction of seconds
-> 2. Now user don't have to worry of running R codes, loading data or arranging the data in particular format for SPSS run
+> 2. Now user don't have to worry of running R codes, loading data or arranging the data in particular format for SPSS run. Simply upload the data and see the results
 > 3. Here is the link https://kapoorabhishek.shinyapps.io/PerceptualMap/
-
-
-> Happy Plotting
+> 4. Happy Plotting
 
